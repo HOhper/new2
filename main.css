@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+}
+header {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between ;
+  height: 100px;
+  box-shadow:0px 0px 1px 0px #9c9c9c;
+ 
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  
+}
+
+/*.w{
+    width: 10px;
+}*/
+a {
+
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.q {
+  width: 50%;
+  height: 50px;
+  justify-content: space-between;
+  display: flex;
+  margin-right: 200px;
+  margin-top: 20px;
+}
+.button{
+  width: 170px;
+  height: 70px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+}
+.button:hover{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background-color: black;
+  border-radius: 15px 15px 15px 15px;
+  color: White;
+  transition: 1s;
+}
+
+.wer {
+  width: 20px;
+  height: 25px;
+  background-color: white;
+  position: relative;
+  left: 100px;
+  top: 30px;
+  font-size: 30px;
+}
+.r{
+  width: 70%;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgb(255, 255, 255);
+  margin-top:  50px; 
+  padding-bottom: 5%;
+}
+.img{
+  margin-top: 5%;
+  width: 100%;
+  margin-left: 10%; 
+  padding-bottom: 3%;
+}
+.g{
+  text-indent: 5%;
+ width: 107%;
+ background-color: white;
+ margin-left: 5%;
+}
+.qwt{
+  margin-top: 5%;
+  width: 100%;
+  margin-left: 10%; 
+  padding-bottom: 3%;
+}
+.y{
+  margin-left: 70px;
+  padding-bottom: 3%;
+}
+
+.d{
+  color: rgb(0, 0, 0);
+  display: flex;
+ 
+}
+footer{
+  background-color: rgb(255, 255, 255);
+  
+  width: 100%;
+  height: 150px;
+  
+  margin-bottom: 0%;
+  box-shadow:0px 0px 1.5px 0px #252525;
+}
+.f{
+  width: 70%;
+  height: 25%;
+  
+  margin-left: 15%;
+ 
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: -70px;
+ 
+ 
+}
+footer:hover{
+  background-color: rgb(0, 0, 0);
+  transition: 1s;
+  
+}
+footer:hover .d{
+  color: rgb(255, 255, 255);
+  transition: 1s;
+}
+.d:hover .e{
+  background-color: rgb(255, 255, 255);
+  display:inline;
+  transition: 3s;
+}
+.e{
+  width: 13px;
+  height: 13px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  margin-bottom: -60px;
+  display:none;
+}
+h2{
+  margin-left: 60px;
+  padding-top: 3%;
+}
+
+
+.sod{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 10%;
+  margin-left: 10%;
+  border: 2px;
+  border-style: solid ;
+  border-color:black;
+  margin-top: 3%;
+}
+.but{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 3px;
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+}
+.df{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: -4px;
+}
